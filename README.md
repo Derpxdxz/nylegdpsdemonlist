@@ -1,4 +1,4 @@
-# nylegdpsdemonlist
+# Xynel GDPS Demonlist
 
 A collab hosted by xynel to remake the old xynel demonlist
 
