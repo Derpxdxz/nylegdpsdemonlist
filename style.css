@@ -2,23 +2,16 @@
     font-family: Montserrat-Light;
     src: url("../fonts/Montserrat-Light.ttf");
 }
-@font-face {
-    font-family: Pusab;
-    src: url("../fonts/Pusab.ttf");
-}
-
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    //background-color: #24252A;
-    color: white;
+    color: #edf0f1;
 }
 
 li, a, button {
     font-family: 'Montserrat-Light', 'Montserrat';
-    //font-color: black;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
@@ -50,12 +43,12 @@ header{
 }
 
 .nav_bar_links li a:hover {
-    color: #0088a9;
+    color: rgb(93, 63, 211);
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(93, 63, 211);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -64,7 +57,7 @@ button {
 
 button:hover {
     background-color: white;
-    color: rgba(0,136,169,1);
+    color: rgb(93, 63, 211);
 }
 
 body {
@@ -76,24 +69,15 @@ h1 {
 }
 
 #Linking {
-    text-decoration-line: #0088A9;
+    text-decoration-line: rgb(93, 63, 211);
     text-decoration-line: underline;
     text-decoration-style: solid;
-    text-decoration-color: #0088A9;
+    text-decoration-color: rgb(93, 63, 211);
     text-decoration-thickness: 3px;
 }
 
-#main-list {
-	position: relative;
-	right: 500px
-}
-#Amarilo {
-    position: relative;
-    left: 500px;
-
-
 #Linking:hover {
-    color: #0088A9;
+    color: rgb(93, 63, 211);
     text-decoration-line: white;
     text-decoration-line: underline;
     text-decoration-style: solid;
@@ -103,13 +87,110 @@ h1 {
 }
 
 #underline {
-    font-family:'Montserrat-Light', 'Montserrat';
+    color: #edf0f1;
+    font-family: 'Montserrat-Light', 'Montserrat';
     text-decoration: wavy;
     text-decoration-line: underline;
-    text-decoration-color: #0088A9;
+    text-decoration-color: rgb(93, 63, 211);
+    transition: all 0.3s ease 0s;
 }
 
-#discord-widget {
+#underline:hover {
+    color: rgb(93, 63, 211);
+    font-family: 'Montserrat-Light', 'Montserrat';
+    text-decoration: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    transition: all 0.3s ease 0s;
+}
+
+#Xynel {
+    color:  #0088a9;
+    text-decoration-line: rgb(93, 63, 211);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgb(93, 63, 211);
+    text-decoration-thickness: 3px;
+}
+
+#Xynel:hover {
+    color: rgb(93, 63, 211);
+    text-decoration-line: #0088a9;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #0088a9;
+    text-decoration-thickness: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+#Derpxdxz {
+    color:  red;
+    text-decoration-line: grey;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: grey;
+    text-decoration-thickness: 3px;
+}
+
+#Derpxdxz:hover {
+    color: grey;
+    text-decoration-line: red;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+#novid {
+    color:  black;
+    text-decoration-line: white;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: white;
+    text-decoration-thickness: 3px;
+}
+
+#novid:hover {
+    color: white;
+    text-decoration-line: black;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+#topone {
+    color:  yellow;
+    text-decoration-line: orange;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: orange;
+    text-decoration-thickness: 3px;
+}
+
+#topone:hover {
+    color: orange;
+    text-decoration-line: yellow;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 3px;
+    transition: all 0.3s ease 0s;
+}
+
+#yt {
+    position: absolute;
+    top: 15%
+}
+
+#levelinfo {
     position: relative;
-    left: 50px;
+    right: 300px;
+}
+
+#announcments {
+    position: relative;
+    right: 300px;
 }
